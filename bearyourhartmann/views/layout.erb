@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bear Your Hartmann</title>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Courgette" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo">Bear Your Hartmann</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/wedding">The Wedding</a></li>
+        <li><a href="/eyecandy">Eye Candy</a></li>
+        <li><a href="/registry">Registry</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <%= yield %>
+  </div>
+</body>
+</html>

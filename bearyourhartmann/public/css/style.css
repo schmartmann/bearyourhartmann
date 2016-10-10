@@ -1,0 +1,50 @@
+body {
+  /*background: #012245;*/
+  background: #ebf1f7;
+}
+
+.hero-image {
+  margin: 10px auto;
+}
+
+.hero-image img {
+  border: 2px solid #D49784;
+  display: block;
+  margin: auto;
+  height: 30em;
+  width: auto;
+}
+
+.nav-wrapper {
+  /*background: #5874A4;*/
+  background: #DE8D16;
+  padding: 0 10px;
+}
+
+.carousel {
+  margin: 10px auto;
+}
+
+nav .brand-logo {
+  color: #012245;
+  font-family: 'Courgette', cursive;
+}
+
+nav ul a {
+  color: #012245;
+  font-family: 'Courgette', cursive;
+  text-transform: uppercase;
+}
+
+
+#arapey {
+  font-family: 'Arapey', serif;
+
+}
+#Courgette {
+  font-family: 'Courgette', cursive;
+}
+
+.container {
+  color: #012245;
+}
