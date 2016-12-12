@@ -3,14 +3,11 @@ body {
   background: #ebf1f7;
 }
 
-.hero-image {
-  margin: 10px auto;
-}
 
 .hero-image img {
   border: 2px solid #D49784;
   display: block;
-  margin: auto;
+  margin: 20px auto;
   height: 30em;
   width: auto;
 }

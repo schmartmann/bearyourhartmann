@@ -22,17 +22,29 @@ $('.carousel').carousel('set', 4);
 
 let weddingComponents = $(".wedding-component")
 
-weddingComponents.hide()
+let dropDown = $(".dropdown");
 
-let checkActive = function(){
-  let activeComponent = weddingComponents.hasClass('active')
-  activeComponent.slideToggle();
-}
+weddingComponents.hide();
 
-$("#wedding-button").click(function(){
-  $("#wedding").addClass('active')
+console.log(weddingComponents)
+
+
+dropDown.click(function(event){
+  let button = event.target.innerHTML;
+  console.log(button)
+  if (button === "The Wedding"){
+    $("#party").hide()
+    $("#travel").hide()
+    $("#wedding").slideToggle();
+  } else if (button === "Meet the Wedding Party"){
+    $("#wedding").hide()
+    $("#travel").hide()
+    $("#party").slideToggle();
+  } else if (button === "Travel &amp; Accommodations"){
+    $("#party").hide()
+    $("#wedding").hide()
+    $("#travel").slideToggle();
+  }
 })
-// party-button
-// travel-button
 
 });//bottom
