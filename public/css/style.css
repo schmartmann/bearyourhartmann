@@ -5,12 +5,22 @@ body {
 }
 
 
-.hero-image img {
+/*.hero-image img {*/
   /*border: 2px solid #D49784;*/
-  display: block;
-  margin: 20px auto;
+  /*display: block;
+  margin: 20px auto;*/
   /*height: auto;
   width: auto;*/
+/*}*/
+
+.hero-image {
+  position: absolute;
+  margin: 0 auto;
+  width: 720px;
+  height: 860px;
+  background: url('../img/splash.png');
+  background-repeat: no-repeat;
+  background-position: 0px 130px;
 }
 
 .nav-wrapper {
