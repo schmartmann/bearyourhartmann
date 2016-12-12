@@ -1,15 +1,16 @@
 body {
   /*background: #012245;*/
-  background: #ebf1f7;
+  /*background: #ebf1f7;*/
+  background: #e3ddd1;
 }
 
 
 .hero-image img {
-  border: 2px solid #D49784;
+  /*border: 2px solid #D49784;*/
   display: block;
   margin: 20px auto;
-  height: 30em;
-  width: auto;
+  /*height: auto;
+  width: auto;*/
 }
 
 .nav-wrapper {
