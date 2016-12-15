@@ -47,4 +47,8 @@ dropDown.click(function(event){
   }
 })
 
+$("#shuttle-form").click(function(){
+  this.innerText = '';
+})
+
 });//bottom
