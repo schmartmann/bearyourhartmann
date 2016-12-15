@@ -49,6 +49,7 @@ dropDown.click(function(event){
 
 $("#shuttle-form").click(function(){
   this.innerText = '';
+  $("input").css("box-shadow", "1px 1px 2px 3px #337ab7")
 })
 
 });//bottom
